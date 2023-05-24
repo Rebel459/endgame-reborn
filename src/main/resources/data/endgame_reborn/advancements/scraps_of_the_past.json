@@ -1,0 +1,48 @@
+{
+  "display": {
+    "icon": {
+      "item": "endgame_reborn:remnant_steel_scrap"
+    },
+    "title": {
+      "translate": "advancements.scraps_of_the_past.title"
+    },
+    "description": {
+      "translate": "advancements.scraps_of_the_past.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "scraps_of_the_past": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "endgame_reborn:remnant_steel_scrap"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "recipes": [
+      "endgame_reborn:craftingtable_recipe_forgotten_steel_ingot",
+      "endgame_reborn:crafting_table_recipe_reinforced_steel_ingot",
+      "endgame_reborn:craftingtable_recipe_gilded_steel_ingot",
+      "endgame_reborn:craftingtable_recipe_fractured_steel_ingot",
+      "endgame_reborn:craftingtable_recipe_steel_ingot",
+      "endgame_reborn:craftingtable_recipe_sculk_steel_ingot",
+      "endgame_reborn:craftingtable_recipe_prosperous_steel_ingot"
+    ]
+  },
+  "parent": "endgame_reborn:what_remains"
+}

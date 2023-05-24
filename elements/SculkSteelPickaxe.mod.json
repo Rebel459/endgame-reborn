@@ -1,0 +1,37 @@
+{
+  "_fv": 39,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "sculk_steel_pickaxe",
+    "customModelName": "Normal",
+    "name": "Sculk Steel Pickaxe",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "TOOLS"
+    },
+    "toolType": "Pickaxe",
+    "harvestLevel": 4,
+    "efficiency": 10.0,
+    "attackSpeed": 1.2,
+    "enchantability": 15,
+    "damageVsEntity": 7.0,
+    "usageCount": 2736,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:SculkSteelIngot"
+      },
+      {
+        "value": "Items.ECHO_SHARD"
+      },
+      {
+        "value": "Blocks.SCULK"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

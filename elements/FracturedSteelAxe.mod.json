@@ -1,0 +1,34 @@
+{
+  "_fv": 39,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "fractured_steel_axe",
+    "customModelName": "Normal",
+    "name": "Fractured Steel Axe",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "TOOLS"
+    },
+    "toolType": "Axe",
+    "harvestLevel": 4,
+    "efficiency": 10.0,
+    "attackSpeed": 1.0,
+    "enchantability": 25,
+    "damageVsEntity": 11.0,
+    "usageCount": 2501,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:FracturedSteelIngot"
+      },
+      {
+        "value": "Items.AMETHYST_SHARD"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

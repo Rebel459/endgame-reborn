@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:netherite_pickaxe"
+  },
+  "addition": {
+    "item": "endgame_reborn:sculk_steel_ingot"
+  },
+  "result": {
+    "item": "endgame_reborn:sculk_steel_pickaxe"
+  }
+}

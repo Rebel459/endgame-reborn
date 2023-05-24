@@ -1,0 +1,37 @@
+{
+  "_fv": 39,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "sculk_steel_hoe",
+    "customModelName": "Normal",
+    "name": "Sculk Steel Hoe",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "TOOLS"
+    },
+    "toolType": "Hoe",
+    "harvestLevel": 4,
+    "efficiency": 10.0,
+    "attackSpeed": 4.0,
+    "enchantability": 15,
+    "damageVsEntity": 2.0,
+    "usageCount": 2736,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:SculkSteelIngot"
+      },
+      {
+        "value": "Items.ECHO_SHARD"
+      },
+      {
+        "value": "Blocks.SCULK"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

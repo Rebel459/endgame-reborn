@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "endgame_reborn:netherite_shovel_reborn"
+  },
+  "addition": {
+    "item": "endgame_reborn:prosperous_steel_ingot"
+  },
+  "result": {
+    "item": "endgame_reborn:prosperous_steel_shovel"
+  }
+}

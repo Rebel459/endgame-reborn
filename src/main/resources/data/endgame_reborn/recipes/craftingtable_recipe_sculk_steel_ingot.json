@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "67 "
+  ],
+  "key": {
+    "0": {
+      "item": "endgame_reborn:remnant_steel_scrap"
+    },
+    "1": {
+      "item": "endgame_reborn:remnant_steel_scrap"
+    },
+    "2": {
+      "item": "endgame_reborn:remnant_steel_scrap"
+    },
+    "3": {
+      "item": "endgame_reborn:remnant_steel_scrap"
+    },
+    "4": {
+      "item": "minecraft:echo_shard"
+    },
+    "5": {
+      "item": "minecraft:echo_shard"
+    },
+    "6": {
+      "item": "minecraft:echo_shard"
+    },
+    "7": {
+      "item": "minecraft:echo_shard"
+    }
+  },
+  "result": {
+    "item": "endgame_reborn:sculk_steel_ingot",
+    "count": 1
+  }
+}

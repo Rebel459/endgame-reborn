@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "67 "
+  ],
+  "key": {
+    "0": {
+      "item": "endgame_reborn:remnant_steel_scrap"
+    },
+    "1": {
+      "item": "endgame_reborn:remnant_steel_scrap"
+    },
+    "2": {
+      "item": "endgame_reborn:remnant_steel_scrap"
+    },
+    "3": {
+      "item": "endgame_reborn:remnant_steel_scrap"
+    },
+    "4": {
+      "item": "minecraft:iron_ingot"
+    },
+    "5": {
+      "item": "minecraft:iron_ingot"
+    },
+    "6": {
+      "item": "minecraft:iron_ingot"
+    },
+    "7": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "endgame_reborn:steel_ingot",
+    "count": 1
+  }
+}

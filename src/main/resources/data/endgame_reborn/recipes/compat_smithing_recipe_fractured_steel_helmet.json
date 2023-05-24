@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:netherite_helmet"
+  },
+  "addition": {
+    "item": "endgame_reborn:fractured_steel_ingot"
+  },
+  "result": {
+    "item": "endgame_reborn:fractured_steel_armor_helmet"
+  }
+}

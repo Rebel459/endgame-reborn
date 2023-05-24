@@ -1,0 +1,34 @@
+{
+  "_fv": 39,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "forgotten_steel_sword",
+    "customModelName": "Normal",
+    "name": "Forgotten Steel Sword",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 4,
+    "efficiency": 10.0,
+    "attackSpeed": 1.5999999999999999,
+    "enchantability": 15,
+    "damageVsEntity": 9.0,
+    "usageCount": 2971,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:ForgottenSteelIngot"
+      },
+      {
+        "value": "CUSTOM:RemnantSteelScrap"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

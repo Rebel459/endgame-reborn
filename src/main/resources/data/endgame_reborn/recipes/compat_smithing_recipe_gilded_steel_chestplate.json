@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:netherite_chestplate"
+  },
+  "addition": {
+    "item": "endgame_reborn:gilded_steel_ingot"
+  },
+  "result": {
+    "item": "endgame_reborn:gilded_steel_armor_chestplate"
+  }
+}

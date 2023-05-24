@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "endgame_reborn:netherite_hoe_reborn"
+  },
+  "addition": {
+    "item": "endgame_reborn:gilded_steel_ingot"
+  },
+  "result": {
+    "item": "endgame_reborn:gilded_steel_hoe"
+  }
+}

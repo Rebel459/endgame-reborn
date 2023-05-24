@@ -1,0 +1,50 @@
+{
+  "display": {
+    "icon": {
+      "item": "endgame_reborn:fractured_steel_ingot"
+    },
+    "title": {
+      "translate": "advancements.fractured_steel.title"
+    },
+    "description": {
+      "translate": "advancements.fractured_steel.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "fractured_steel": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "endgame_reborn:fractured_steel_ingot"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "recipes": [
+      "endgame_reborn:smithing_recipe_fractured_steel_helmet",
+      "endgame_reborn:smithing_recipe_fractured_steel_chestplate",
+      "endgame_reborn:smithing_recipe_fractured_steel_leggings",
+      "endgame_reborn:smithing_recipe_fractured_steel_boots",
+      "endgame_reborn:smithing_recipe_fractured_steel_sword",
+      "endgame_reborn:smithing_recipe_fractured_steel_pickaxe",
+      "endgame_reborn:smithing_recipe_fractured_steel_axe",
+      "endgame_reborn:smithing_recipe_fractured_steel_shovel",
+      "endgame_reborn:smithing_recipe_fractured_steel_hoe"
+    ]
+  },
+  "parent": "endgame_reborn:scraps_of_the_past"
+}

@@ -1,0 +1,23 @@
+{
+  "_fv": 39,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smithing",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "smithingInputStack": {
+      "value": "CUSTOM:NetheriteHoeReborn"
+    },
+    "smithingInputAdditionStack": {
+      "value": "CUSTOM:GildedSteelIngot"
+    },
+    "smithingReturnStack": {
+      "value": "CUSTOM:GildedSteelHoe"
+    },
+    "name": "smithing_recipe_gilded_steel_hoe",
+    "namespace": "mod"
+  }
+}

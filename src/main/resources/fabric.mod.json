@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "endgame_reborn",
+  "version": "1.0.0",
+  "name": "Endgame Reborn",
+  "description": "Endgame Reborn adds a plethora of new, fine-tuned endgame gear to your world, using a vanilla-style progression system alongside some minor balance tweaks.",
+  "authors": [
+    "Rebel459"
+  ],
+  "contact": {
+    "homepage": "https://mcreator.net",
+    "sources": ""
+  },
+  "license": "All Rights Reserved",
+  "accessWidener": "endgame_reborn.accesswidener",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.mcreator.endgamereborn.EndgameRebornMod"
+    ],
+    "client": [
+      "net.mcreator.endgamereborn.ClientInit"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "fabric": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "mixins": [
+    "endgame_reborn.mixins.json"
+  ]
+}

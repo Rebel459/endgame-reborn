@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:netherite_"
+  },
+  "addition": {
+    "item": "endgame_reborn:forgotten_steel_ingot"
+  },
+  "result": {
+    "item": "endgame_reborn:forgotten_steel_axe"
+  }
+}

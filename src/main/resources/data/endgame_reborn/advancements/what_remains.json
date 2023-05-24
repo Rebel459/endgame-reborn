@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "item": "endgame_reborn:remnant_steel_ore"
+    },
+    "title": {
+      "translate": "advancements.what_remains.title"
+    },
+    "description": {
+      "translate": "advancements.what_remains.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "what_remains": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "endgame_reborn:remnant_steel_ore"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "recipes": [
+      "endgame_reborn:remnant_steel_scrap_from_remnant_steel_ore"
+    ]
+  },
+  "parent": "minecraft:end/enter_end_gateway"
+}

@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.mcreator.endgamereborn.mixins",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+	"EndgameRebornModRepairItemRecipeMixin"  ],
+  "injectors": {
+	"defaultRequire": 1
+  }
+}

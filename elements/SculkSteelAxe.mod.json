@@ -1,0 +1,37 @@
+{
+  "_fv": 39,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "sculk_steel_axe",
+    "customModelName": "Normal",
+    "name": "Sculk Steel Axe",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "TOOLS"
+    },
+    "toolType": "Axe",
+    "harvestLevel": 4,
+    "efficiency": 10.0,
+    "attackSpeed": 1.0,
+    "enchantability": 15,
+    "damageVsEntity": 11.0,
+    "usageCount": 2736,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:SculkSteelIngot"
+      },
+      {
+        "value": "Items.ECHO_SHARD"
+      },
+      {
+        "value": "Blocks.SCULK"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

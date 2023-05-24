@@ -1,0 +1,20 @@
+{
+  "_fv": 39,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Blasting",
+    "xpReward": 1.0,
+    "cookingTime": 250,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "blastingInputStack": {
+      "value": "CUSTOM:RemnantSteelOre"
+    },
+    "blastingReturnStack": {
+      "value": "CUSTOM:RemnantSteelScrap"
+    },
+    "name": "remnant_steel_scrap_from_remnant_steel_ore",
+    "namespace": "mod"
+  }
+}

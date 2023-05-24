@@ -1,0 +1,46 @@
+{
+  "_fv": 39,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:RemnantSteelScrap"
+      },
+      {
+        "value": "CUSTOM:RemnantSteelScrap"
+      },
+      {
+        "value": "CUSTOM:RemnantSteelScrap"
+      },
+      {
+        "value": "CUSTOM:RemnantSteelScrap"
+      },
+      {
+        "value": "Items.DIAMOND"
+      },
+      {
+        "value": "Items.DIAMOND"
+      },
+      {
+        "value": "Items.DIAMOND"
+      },
+      {
+        "value": "Items.DIAMOND"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:ReinforcedSteelIngot"
+    },
+    "name": "crafting_table_recipe_reinforced_steel_ingot",
+    "namespace": "mod"
+  }
+}

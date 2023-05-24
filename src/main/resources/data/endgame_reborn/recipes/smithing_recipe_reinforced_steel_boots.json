@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "endgame_reborn:netherite_armor_reborn_boots"
+  },
+  "addition": {
+    "item": "endgame_reborn:reinforced_steel_ingot"
+  },
+  "result": {
+    "item": "endgame_reborn:reinforced_steel_armor_boots"
+  }
+}
