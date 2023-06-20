@@ -42,7 +42,7 @@ public abstract class GildedSteelArmorItem extends ArmorItem {
 
 			@Override
 			public Ingredient getRepairIngredient() {
-				return Ingredient.of(new ItemStack(EndgameRebornModItems.GILDED_STEEL_INGOT), new ItemStack(Items.NETHERITE_INGOT));
+				return Ingredient.of(new ItemStack(EndgameRebornModItems.GILDED_STEEL_INGOT), new ItemStack(Items.NETHERITE_INGOT), new ItemStack(Items.NETHERITE_SCRAP));
 			}
 
 			@Environment(EnvType.CLIENT)

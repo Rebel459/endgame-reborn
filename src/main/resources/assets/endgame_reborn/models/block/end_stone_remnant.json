@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "endgame_reborn:blocks/end_stone_remnants",
+    "up": "endgame_reborn:blocks/end_stone_remnants",
+    "north": "endgame_reborn:blocks/end_stone_remnants",
+    "east": "endgame_reborn:blocks/end_stone_remnants",
+    "south": "endgame_reborn:blocks/end_stone_remnants",
+    "west": "endgame_reborn:blocks/end_stone_remnants",
+    "particle": "endgame_reborn:blocks/end_stone_remnants"
+  }
+}

@@ -57,7 +57,7 @@ public abstract class SteelArmorItem extends ArmorItem {
 
 			@Override
 			public float getKnockbackResistance() {
-				return 0f;
+				return 0.1f;
 			}
 		}, slot, properties);
 	}
@@ -65,7 +65,7 @@ public abstract class SteelArmorItem extends ArmorItem {
 	public static class Helmet extends SteelArmorItem {
 
 		public Helmet() {
-			super(EquipmentSlot.HEAD, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT));
+			super(EquipmentSlot.HEAD, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT).fireResistant());
 		}
 
 	}
@@ -73,7 +73,7 @@ public abstract class SteelArmorItem extends ArmorItem {
 	public static class Chestplate extends SteelArmorItem {
 
 		public Chestplate() {
-			super(EquipmentSlot.CHEST, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT));
+			super(EquipmentSlot.CHEST, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT).fireResistant());
 		}
 
 	}
@@ -81,7 +81,7 @@ public abstract class SteelArmorItem extends ArmorItem {
 	public static class Leggings extends SteelArmorItem {
 
 		public Leggings() {
-			super(EquipmentSlot.LEGS, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT));
+			super(EquipmentSlot.LEGS, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT).fireResistant());
 		}
 
 	}
@@ -89,7 +89,7 @@ public abstract class SteelArmorItem extends ArmorItem {
 	public static class Boots extends SteelArmorItem {
 
 		public Boots() {
-			super(EquipmentSlot.FEET, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT));
+			super(EquipmentSlot.FEET, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT).fireResistant());
 		}
 
 	}

@@ -2,6 +2,7 @@
 package net.mcreator.endgamereborn.item;
 
 import net.minecraft.world.item.crafting.Ingredient;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.CreativeModeTab;
@@ -21,7 +22,7 @@ public abstract class ForgottenSteelArmorItem extends ArmorItem {
 		super(new ArmorMaterial() {
 			@Override
 			public int getDurabilityForSlot(EquipmentSlot slot) {
-				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 49;
+				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 41;
 			}
 
 			@Override
@@ -41,7 +42,7 @@ public abstract class ForgottenSteelArmorItem extends ArmorItem {
 
 			@Override
 			public Ingredient getRepairIngredient() {
-				return Ingredient.of(new ItemStack(EndgameRebornModItems.FORGOTTEN_STEEL_INGOT), new ItemStack(EndgameRebornModItems.REMNANT_STEEL_SCRAP));
+				return Ingredient.of(new ItemStack(EndgameRebornModItems.FORGOTTEN_STEEL_INGOT), new ItemStack(Items.SHULKER_SHELL));
 			}
 
 			@Environment(EnvType.CLIENT)
@@ -57,7 +58,7 @@ public abstract class ForgottenSteelArmorItem extends ArmorItem {
 
 			@Override
 			public float getKnockbackResistance() {
-				return 0f;
+				return 0.1f;
 			}
 		}, slot, properties);
 	}

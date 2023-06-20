@@ -15,7 +15,7 @@ public class ReinforcedSteelPickaxeItem extends PickaxeItem {
 	public ReinforcedSteelPickaxeItem() {
 		super(new Tier() {
 			public int getUses() {
-				return 2736;
+				return 2971;
 			}
 
 			public float getSpeed() {

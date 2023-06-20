@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:chorus_fruit"
+    },
+    "1": {
+      "item": "minecraft:chorus_fruit"
+    },
+    "2": {
+      "item": "minecraft:chorus_fruit"
+    },
+    "3": {
+      "item": "minecraft:chorus_fruit"
+    }
+  },
+  "result": {
+    "item": "endgame_reborn:chorus_spine",
+    "count": 1
+  }
+}

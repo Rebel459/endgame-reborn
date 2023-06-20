@@ -36,6 +36,6 @@ public class SteelSwordItem extends SwordItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(EndgameRebornModItems.STEEL_INGOT), new ItemStack(EndgameRebornModItems.REMNANT_STEEL_SCRAP));
 			}
-		}, 3, -2.4000000000000001f, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT));
+		}, 3, -2.4000000000000001f, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT).fireResistant());
 	}
 }

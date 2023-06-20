@@ -36,6 +36,6 @@ public class SteelHoeItem extends HoeItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(EndgameRebornModItems.STEEL_INGOT), new ItemStack(EndgameRebornModItems.REMNANT_STEEL_SCRAP));
 			}
-		}, 0, 0f, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS));
+		}, 0, 0f, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS).fireResistant());
 	}
 }

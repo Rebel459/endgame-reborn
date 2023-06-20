@@ -22,7 +22,7 @@ public abstract class ReinforcedSteelArmorItem extends ArmorItem {
 		super(new ArmorMaterial() {
 			@Override
 			public int getDurabilityForSlot(EquipmentSlot slot) {
-				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 41;
+				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 49;
 			}
 
 			@Override
@@ -58,7 +58,7 @@ public abstract class ReinforcedSteelArmorItem extends ArmorItem {
 
 			@Override
 			public float getKnockbackResistance() {
-				return 0.1f;
+				return 0f;
 			}
 		}, slot, properties);
 	}

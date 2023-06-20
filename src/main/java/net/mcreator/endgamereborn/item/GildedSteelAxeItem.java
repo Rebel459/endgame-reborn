@@ -15,7 +15,7 @@ public class GildedSteelAxeItem extends AxeItem {
 	public GildedSteelAxeItem() {
 		super(new Tier() {
 			public int getUses() {
-				return 2736;
+				return 2735;
 			}
 
 			public float getSpeed() {
@@ -35,7 +35,7 @@ public class GildedSteelAxeItem extends AxeItem {
 			}
 
 			public Ingredient getRepairIngredient() {
-				return Ingredient.of(new ItemStack(EndgameRebornModItems.GILDED_STEEL_INGOT), new ItemStack(Items.NETHERITE_INGOT));
+				return Ingredient.of(new ItemStack(EndgameRebornModItems.GILDED_STEEL_INGOT), new ItemStack(Items.NETHERITE_INGOT), new ItemStack(Items.NETHERITE_SCRAP));
 			}
 		}, 1, -3f, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS).fireResistant());
 	}

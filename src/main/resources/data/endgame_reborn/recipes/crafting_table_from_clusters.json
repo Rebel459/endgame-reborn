@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "endgame_reborn:chorus_cluster"
+    },
+    "1": {
+      "item": "endgame_reborn:chorus_cluster"
+    },
+    "2": {
+      "item": "endgame_reborn:chorus_cluster"
+    },
+    "3": {
+      "item": "endgame_reborn:chorus_cluster"
+    }
+  },
+  "result": {
+    "item": "minecraft:crafting_table",
+    "count": 1
+  }
+}

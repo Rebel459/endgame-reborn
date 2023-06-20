@@ -1,0 +1,31 @@
+{
+  "_fv": 39,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "popped_chorus_pickaxe",
+    "customModelName": "Normal",
+    "name": "Popped Chorus Pickaxe",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "TOOLS"
+    },
+    "toolType": "Pickaxe",
+    "harvestLevel": 1,
+    "efficiency": 5.0,
+    "attackSpeed": 1.2,
+    "enchantability": 12,
+    "damageVsEntity": 4.0,
+    "usageCount": 127,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "Items.CHORUS_FRUIT_POPPED"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

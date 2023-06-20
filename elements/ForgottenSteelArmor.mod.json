@@ -50,14 +50,14 @@
     "bodyImmuneToFire": false,
     "leggingsImmuneToFire": false,
     "bootsImmuneToFire": false,
-    "maxDamage": 49,
+    "maxDamage": 41,
     "damageValueHelmet": 3,
     "damageValueBody": 8,
     "damageValueLeggings": 6,
     "damageValueBoots": 3,
     "enchantability": 15,
     "toughness": 3.0,
-    "knockbackResistance": 0.0,
+    "knockbackResistance": 0.1,
     "equipSound": {
       "value": "item.armor.equip_netherite"
     },
@@ -66,7 +66,7 @@
         "value": "CUSTOM:ForgottenSteelIngot"
       },
       {
-        "value": "CUSTOM:RemnantSteelScrap"
+        "value": "Items.SHULKER_SHELL"
       }
     ]
   }

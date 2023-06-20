@@ -1,0 +1,43 @@
+{
+  "_fv": 39,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "prosperous_steel_knife",
+    "customModelName": "Normal",
+    "name": "Prosperous Steel Knife",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "TOOLS"
+    },
+    "toolType": "MultiTool",
+    "harvestLevel": 4,
+    "efficiency": 10.0,
+    "attackSpeed": 2.2,
+    "enchantability": 15,
+    "damageVsEntity": 6.5,
+    "usageCount": 2501,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:ProsperousSteelIngot"
+      },
+      {
+        "value": "CUSTOM:FlawlessEmerald"
+      },
+      {
+        "value": "Items.EXPERIENCE_BOTTLE"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onEntityHitWith": {
+      "name": "ProsperousEmeraldProcedure"
+    },
+    "onBlockDestroyedWithTool": {
+      "name": "ProsperousEmeraldProcedure"
+    }
+  }
+}

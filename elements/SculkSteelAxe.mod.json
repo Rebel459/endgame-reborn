@@ -25,13 +25,16 @@
       },
       {
         "value": "Items.ECHO_SHARD"
-      },
-      {
-        "value": "Blocks.SCULK"
       }
     ],
     "immuneToFire": false,
     "stayInGridWhenCrafting": false,
-    "damageOnCrafting": false
+    "damageOnCrafting": false,
+    "onEntityHitWith": {
+      "name": "BonusExperienceProcedure"
+    },
+    "onBlockDestroyedWithTool": {
+      "name": "BonusExperienceProcedure"
+    }
   }
 }

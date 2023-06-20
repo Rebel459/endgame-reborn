@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":["AA","BA","B "],"key":{"A":{"item":"minecraft:popped_chorus_fruit"},"B":{"item":"minecraft:stick"}},"result":{"item":"endgame_reborn:popped_chorus_axe","count":1},"group": "popped_chorus_axe"}

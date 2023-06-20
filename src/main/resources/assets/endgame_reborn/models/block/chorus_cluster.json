@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "endgame_reborn:blocks/chorus_cluster",
+    "up": "endgame_reborn:blocks/chorus_cluster",
+    "north": "endgame_reborn:blocks/chorus_cluster",
+    "east": "endgame_reborn:blocks/chorus_cluster",
+    "south": "endgame_reborn:blocks/chorus_cluster",
+    "west": "endgame_reborn:blocks/chorus_cluster",
+    "particle": "endgame_reborn:blocks/chorus_cluster"
+  }
+}

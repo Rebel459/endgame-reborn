@@ -15,7 +15,7 @@ public class ReinforcedSteelShovelItem extends ShovelItem {
 	public ReinforcedSteelShovelItem() {
 		super(new Tier() {
 			public int getUses() {
-				return 2736;
+				return 2971;
 			}
 
 			public float getSpeed() {

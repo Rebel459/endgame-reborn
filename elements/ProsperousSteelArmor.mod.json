@@ -67,6 +67,9 @@
       },
       {
         "value": "Items.EXPERIENCE_BOTTLE"
+      },
+      {
+        "value": "CUSTOM:FlawlessEmerald"
       }
     ]
   }

@@ -36,6 +36,6 @@ public class SteelPickaxeItem extends PickaxeItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(EndgameRebornModItems.STEEL_INGOT), new ItemStack(EndgameRebornModItems.REMNANT_STEEL_SCRAP));
 			}
-		}, 1, -2.8f, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS));
+		}, 1, -2.8f, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS).fireResistant());
 	}
 }

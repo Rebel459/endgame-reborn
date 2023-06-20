@@ -15,6 +15,7 @@ package net.mcreator.endgamereborn;
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
 
+import net.mcreator.endgamereborn.init.EndgameRebornModProcedures;
 import net.mcreator.endgamereborn.init.EndgameRebornModItems;
 import net.mcreator.endgamereborn.init.EndgameRebornModFeatures;
 import net.mcreator.endgamereborn.init.EndgameRebornModBlocks;
@@ -33,6 +34,8 @@ public class EndgameRebornMod implements ModInitializer {
 		EndgameRebornModItems.load();
 
 		EndgameRebornModFeatures.load();
+
+		EndgameRebornModProcedures.load();
 
 	}
 }

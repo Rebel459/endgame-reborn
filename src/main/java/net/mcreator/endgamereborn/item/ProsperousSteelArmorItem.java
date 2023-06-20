@@ -42,7 +42,7 @@ public abstract class ProsperousSteelArmorItem extends ArmorItem {
 
 			@Override
 			public Ingredient getRepairIngredient() {
-				return Ingredient.of(new ItemStack(EndgameRebornModItems.PROSPEROUS_STEEL_INGOT), new ItemStack(Items.EXPERIENCE_BOTTLE));
+				return Ingredient.of(new ItemStack(EndgameRebornModItems.PROSPEROUS_STEEL_INGOT), new ItemStack(Items.EXPERIENCE_BOTTLE), new ItemStack(EndgameRebornModItems.FLAWLESS_EMERALD));
 			}
 
 			@Environment(EnvType.CLIENT)

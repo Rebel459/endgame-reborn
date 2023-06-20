@@ -8,7 +8,7 @@ import net.minecraft.world.item.CreativeModeTab;
 
 public class SteelIngotItem extends Item {
 	public SteelIngotItem() {
-		super(new Item.Properties().tab(CreativeModeTab.TAB_MATERIALS).stacksTo(64).rarity(Rarity.COMMON));
+		super(new Item.Properties().tab(CreativeModeTab.TAB_MATERIALS).stacksTo(64).fireResistant().rarity(Rarity.COMMON));
 	}
 
 	@Override

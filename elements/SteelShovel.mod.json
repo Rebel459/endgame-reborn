@@ -27,7 +27,7 @@
         "value": "CUSTOM:RemnantSteelScrap"
       }
     ],
-    "immuneToFire": false,
+    "immuneToFire": true,
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false
   }

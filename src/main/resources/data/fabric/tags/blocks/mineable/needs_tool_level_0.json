@@ -1,4 +1,8 @@
 {
   "replace": false,
-  "values": []
+  "values": [
+    "endgame_reborn:remnant_steel_ore",
+    "endgame_reborn:end_soil",
+    "endgame_reborn:chorus_cluster"
+  ]
 }

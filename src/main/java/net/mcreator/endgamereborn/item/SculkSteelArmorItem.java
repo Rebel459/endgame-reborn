@@ -1,7 +1,6 @@
 
 package net.mcreator.endgamereborn.item;
 
-import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ItemStack;
@@ -23,7 +22,7 @@ public abstract class SculkSteelArmorItem extends ArmorItem {
 		super(new ArmorMaterial() {
 			@Override
 			public int getDurabilityForSlot(EquipmentSlot slot) {
-				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 45;
+				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 49;
 			}
 
 			@Override
@@ -43,7 +42,7 @@ public abstract class SculkSteelArmorItem extends ArmorItem {
 
 			@Override
 			public Ingredient getRepairIngredient() {
-				return Ingredient.of(new ItemStack(EndgameRebornModItems.SCULK_STEEL_INGOT), new ItemStack(Items.ECHO_SHARD), new ItemStack(Blocks.SCULK));
+				return Ingredient.of(new ItemStack(EndgameRebornModItems.SCULK_STEEL_INGOT), new ItemStack(Items.ECHO_SHARD));
 			}
 
 			@Environment(EnvType.CLIENT)

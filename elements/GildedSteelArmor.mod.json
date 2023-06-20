@@ -67,6 +67,9 @@
       },
       {
         "value": "Items.NETHERITE_INGOT"
+      },
+      {
+        "value": "Items.NETHERITE_SCRAP"
       }
     ]
   }

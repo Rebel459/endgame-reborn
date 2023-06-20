@@ -1412,6 +1412,964 @@
           "src/main/resources/data/endgame_reborn/advancements/scraps_of_the_past.json"
         ]
       }
+    },
+    {
+      "name": "EndStoneDustPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "end_stone_dust_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/endgamereborn/procedures/EndStoneDustPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EndStoneDust",
+      "type": "item",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "end_stone_dust",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/endgamereborn/item/EndStoneDustItem.java",
+          "src/main/resources/assets/endgame_reborn/models/item/end_stone_dust.json"
+        ]
+      }
+    },
+    {
+      "name": "EndStoneRemnant",
+      "type": "block",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "end_stone_remnant",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/endgame_reborn/models/item/end_stone_remnant.json",
+          "src/main/java/net/mcreator/endgamereborn/block/EndStoneRemnantBlock.java",
+          "src/main/resources/assets/endgame_reborn/blockstates/end_stone_remnant.json",
+          "src/main/resources/assets/endgame_reborn/models/block/end_stone_remnant.json",
+          "src/main/java/net/mcreator/endgamereborn/world/features/ores/EndStoneRemnantFeature.java"
+        ]
+      }
+    },
+    {
+      "name": "EndSoil",
+      "type": "block",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "end_soil",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/endgame_reborn/models/item/end_soil.json",
+          "src/main/resources/assets/endgame_reborn/blockstates/end_soil.json",
+          "src/main/java/net/mcreator/endgamereborn/block/EndSoilBlock.java",
+          "src/main/java/net/mcreator/endgamereborn/world/features/ores/EndSoilFeature.java",
+          "src/main/resources/assets/endgame_reborn/models/block/end_soil.json"
+        ]
+      }
+    },
+    {
+      "name": "FlawlessEmerald",
+      "type": "item",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flawless_emerald",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/endgame_reborn/models/item/flawless_emerald.json",
+          "src/main/java/net/mcreator/endgamereborn/item/FlawlessEmeraldItem.java"
+        ]
+      }
+    },
+    {
+      "name": "EmeraldFromFlawlessEmerald",
+      "type": "recipe",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emerald_from_flawless_emerald",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/endgame_reborn/recipes/emerald_from_flawless_emerald.json"
+        ]
+      }
+    },
+    {
+      "name": "ProsperousEmeraldProcedure",
+      "type": "procedure",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "prosperous_emerald_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/endgamereborn/procedures/ProsperousEmeraldProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BonusExperienceProcedure",
+      "type": "procedure",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bonus_experience_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/endgamereborn/procedures/BonusExperienceProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EndStoneSword",
+      "type": "tool",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "end_stone_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/endgame_reborn/models/item/end_stone_sword.json",
+          "src/main/java/net/mcreator/endgamereborn/item/EndStoneSwordItem.java"
+        ]
+      }
+    },
+    {
+      "name": "EndStonePickaxe",
+      "type": "tool",
+      "sortid": 117,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "end_stone_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/endgame_reborn/models/item/end_stone_pickaxe.json",
+          "src/main/java/net/mcreator/endgamereborn/item/EndStonePickaxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "EndStoneAxe",
+      "type": "tool",
+      "sortid": 118,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "end_stone_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/endgame_reborn/models/item/end_stone_axe.json",
+          "src/main/java/net/mcreator/endgamereborn/item/EndStoneAxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "EndStoneShovel",
+      "type": "tool",
+      "sortid": 119,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "end_stone_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/endgame_reborn/models/item/end_stone_shovel.json",
+          "src/main/java/net/mcreator/endgamereborn/item/EndStoneShovelItem.java"
+        ]
+      }
+    },
+    {
+      "name": "EndStoneHoe",
+      "type": "tool",
+      "sortid": 120,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "end_stone_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/endgame_reborn/models/item/end_stone_hoe.json",
+          "src/main/java/net/mcreator/endgamereborn/item/EndStoneHoeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "ChorusCluster",
+      "type": "block",
+      "sortid": 121,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chorus_cluster",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/endgame_reborn/models/item/chorus_cluster.json",
+          "src/main/resources/assets/endgame_reborn/models/block/chorus_cluster.json",
+          "src/main/resources/assets/endgame_reborn/blockstates/chorus_cluster.json",
+          "src/main/java/net/mcreator/endgamereborn/block/ChorusClusterBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "ChorusSpine",
+      "type": "item",
+      "sortid": 122,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chorus_spine",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/endgame_reborn/models/item/chorus_spine.json",
+          "src/main/java/net/mcreator/endgamereborn/item/ChorusSpineItem.java"
+        ]
+      }
+    },
+    {
+      "name": "ChorusClusterRecipe",
+      "type": "recipe",
+      "sortid": 123,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chorus_cluster_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/endgame_reborn/recipes/chorus_cluster_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CraftingTableFromClusters",
+      "type": "recipe",
+      "sortid": 124,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crafting_table_from_clusters",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/endgame_reborn/recipes/crafting_table_from_clusters.json"
+        ]
+      }
+    },
+    {
+      "name": "ChorusSpineFromClusters",
+      "type": "recipe",
+      "sortid": 125,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chorus_spine_from_clusters",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/endgame_reborn/recipes/chorus_spine_from_clusters.json"
+        ]
+      }
+    },
+    {
+      "name": "ChorusSpineRecipe",
+      "type": "recipe",
+      "sortid": 126,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chorus_spine_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/endgame_reborn/recipes/chorus_spine_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SticksFromChorusSpine",
+      "type": "recipe",
+      "sortid": 127,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sticks_from_chorus_spine",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/endgame_reborn/recipes/sticks_from_chorus_spine.json"
+        ]
+      }
+    },
+    {
+      "name": "FurnaceFromEndStone",
+      "type": "recipe",
+      "sortid": 128,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "furnace_from_end_stone",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/endgame_reborn/recipes/furnace_from_end_stone.json"
+        ]
+      }
+    },
+    {
+      "name": "PoppedChorusSword",
+      "type": "tool",
+      "sortid": 129,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "popped_chorus_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/endgame_reborn/models/item/popped_chorus_sword.json",
+          "src/main/java/net/mcreator/endgamereborn/item/PoppedChorusSwordItem.java"
+        ]
+      }
+    },
+    {
+      "name": "PoppedChorusPickaxe",
+      "type": "tool",
+      "sortid": 130,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "popped_chorus_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/endgame_reborn/models/item/popped_chorus_pickaxe.json",
+          "src/main/java/net/mcreator/endgamereborn/item/PoppedChorusPickaxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "PoppedChorusAxe",
+      "type": "tool",
+      "sortid": 131,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "popped_chorus_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/endgame_reborn/models/item/popped_chorus_axe.json",
+          "src/main/java/net/mcreator/endgamereborn/item/PoppedChorusAxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "PoppedChorusShovel",
+      "type": "tool",
+      "sortid": 132,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "popped_chorus_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/endgamereborn/item/PoppedChorusShovelItem.java",
+          "src/main/resources/assets/endgame_reborn/models/item/popped_chorus_shovel.json"
+        ]
+      }
+    },
+    {
+      "name": "PoppedChorusHoe",
+      "type": "tool",
+      "sortid": 133,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "popped_chorus_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/endgame_reborn/models/item/popped_chorus_hoe.json",
+          "src/main/java/net/mcreator/endgamereborn/item/PoppedChorusHoeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "CharcoalFromChorusCluster",
+      "type": "recipe",
+      "sortid": 134,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "charcoal_from_chorus_cluster",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/endgame_reborn/recipes/charcoal_from_chorus_cluster.json"
+        ]
+      }
+    },
+    {
+      "name": "RemnantSteelUpgradeSmithingTemplate",
+      "type": "item",
+      "sortid": 135,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "remnant_steel_upgrade_smithing_template",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/endgamereborn/item/RemnantSteelUpgradeSmithingTemplateItem.java",
+          "src/main/resources/assets/endgame_reborn/models/item/remnant_steel_upgrade_smithing_template.json"
+        ]
+      }
+    },
+    {
+      "name": "ForgottenSteelUpgradeSmithingTemplate",
+      "type": "item",
+      "sortid": 136,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "forgotten_steel_upgrade_smithing_template",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/endgamereborn/item/ForgottenSteelUpgradeSmithingTemplateItem.java",
+          "src/main/resources/assets/endgame_reborn/models/item/forgotten_steel_upgrade_smithing_template.json"
+        ]
+      }
+    },
+    {
+      "name": "FracturedSteelUpgradeSmithingTemplate",
+      "type": "item",
+      "sortid": 137,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fractured_steel_upgrade_smithing_template",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/endgame_reborn/models/item/fractured_steel_upgrade_smithing_template.json",
+          "src/main/java/net/mcreator/endgamereborn/item/FracturedSteelUpgradeSmithingTemplateItem.java"
+        ]
+      }
+    },
+    {
+      "name": "GildedSteelUpgradeSmithingTemplate",
+      "type": "item",
+      "sortid": 138,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gilded_steel_upgrade_smithing_template",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/endgamereborn/item/GildedSteelUpgradeSmithingTemplateItem.java",
+          "src/main/resources/assets/endgame_reborn/models/item/gilded_steel_upgrade_smithing_template.json"
+        ]
+      }
+    },
+    {
+      "name": "ProsperousSteelUpgradeSmithingTemplate",
+      "type": "item",
+      "sortid": 139,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "prosperous_steel_upgrade_smithing_template",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/endgamereborn/item/ProsperousSteelUpgradeSmithingTemplateItem.java",
+          "src/main/resources/assets/endgame_reborn/models/item/prosperous_steel_upgrade_smithing_template.json"
+        ]
+      }
+    },
+    {
+      "name": "ReinforcedSteelUpgradeSmithingTemplate",
+      "type": "item",
+      "sortid": 140,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reinforced_steel_upgrade_smithing_template",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/endgamereborn/item/ReinforcedSteelUpgradeSmithingTemplateItem.java",
+          "src/main/resources/assets/endgame_reborn/models/item/reinforced_steel_upgrade_smithing_template.json"
+        ]
+      }
+    },
+    {
+      "name": "SculkSteelUpgradeSmithingTemplate",
+      "type": "item",
+      "sortid": 141,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sculk_steel_upgrade_smithing_template",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/endgame_reborn/models/item/sculk_steel_upgrade_smithing_template.json",
+          "src/main/java/net/mcreator/endgamereborn/item/SculkSteelUpgradeSmithingTemplateItem.java"
+        ]
+      }
+    },
+    {
+      "name": "SteelKnife",
+      "type": "tool",
+      "sortid": 142,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "steel_knife",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/endgamereborn/item/SteelKnifeItem.java",
+          "src/main/resources/assets/endgame_reborn/models/item/steel_knife.json"
+        ]
+      }
+    },
+    {
+      "name": "SculkSteelKnife",
+      "type": "tool",
+      "sortid": 143,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "sculk_steel_knife",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/endgame_reborn/models/item/sculk_steel_knife.json",
+          "src/main/java/net/mcreator/endgamereborn/item/SculkSteelKnifeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "ProsperousSteelKnife",
+      "type": "tool",
+      "sortid": 144,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "prosperous_steel_knife",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/endgamereborn/item/ProsperousSteelKnifeItem.java",
+          "src/main/resources/assets/endgame_reborn/models/item/prosperous_steel_knife.json"
+        ]
+      }
+    },
+    {
+      "name": "FracturedSteelKnife",
+      "type": "tool",
+      "sortid": 145,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "fractured_steel_knife",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/endgamereborn/item/FracturedSteelKnifeItem.java",
+          "src/main/resources/assets/endgame_reborn/models/item/fractured_steel_knife.json"
+        ]
+      }
+    },
+    {
+      "name": "NetheriteKnifeReborn",
+      "type": "tool",
+      "sortid": 146,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "netherite_knife_reborn",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/endgame_reborn/models/item/netherite_knife_reborn.json",
+          "src/main/java/net/mcreator/endgamereborn/item/NetheriteKnifeRebornItem.java"
+        ]
+      }
+    },
+    {
+      "name": "ReinforcedSteelKnife",
+      "type": "tool",
+      "sortid": 147,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "reinforced_steel_knife",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/endgame_reborn/models/item/reinforced_steel_knife.json",
+          "src/main/java/net/mcreator/endgamereborn/item/ReinforcedSteelKnifeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "GildedSteelKnife",
+      "type": "tool",
+      "sortid": 148,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "gilded_steel_knife",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/endgame_reborn/models/item/gilded_steel_knife.json",
+          "src/main/java/net/mcreator/endgamereborn/item/GildedSteelKnifeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "ForgottenSteelKnife",
+      "type": "tool",
+      "sortid": 149,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "forgotten_steel_knife",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/endgamereborn/item/ForgottenSteelKnifeItem.java",
+          "src/main/resources/assets/endgame_reborn/models/item/forgotten_steel_knife.json"
+        ]
+      }
+    },
+    {
+      "name": "ReinforcedSteelTemplate",
+      "type": "achievement",
+      "sortid": 150,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "reinforced_steel_template",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/endgame_reborn/advancements/reinforced_steel_template.json"
+        ]
+      }
+    },
+    {
+      "name": "ForgottenSteelTemplate",
+      "type": "achievement",
+      "sortid": 151,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "forgotten_steel_template",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/endgame_reborn/advancements/forgotten_steel_template.json"
+        ]
+      }
+    },
+    {
+      "name": "SteelTemplate",
+      "type": "achievement",
+      "sortid": 152,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_template",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/endgame_reborn/advancements/steel_template.json"
+        ]
+      }
+    },
+    {
+      "name": "FracturedSteelTemplate",
+      "type": "achievement",
+      "sortid": 153,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "fractured_steel_template",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/endgame_reborn/advancements/fractured_steel_template.json"
+        ]
+      }
+    },
+    {
+      "name": "ProsperousSteelTemplate",
+      "type": "achievement",
+      "sortid": 154,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "prosperous_steel_template",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/endgame_reborn/advancements/prosperous_steel_template.json"
+        ]
+      }
+    },
+    {
+      "name": "SculkSteelTemplate",
+      "type": "achievement",
+      "sortid": 155,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "sculk_steel_template",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/endgame_reborn/advancements/sculk_steel_template.json"
+        ]
+      }
+    },
+    {
+      "name": "GildedSteelTemplate",
+      "type": "achievement",
+      "sortid": 156,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gilded_steel_template",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/endgame_reborn/advancements/gilded_steel_template.json"
+        ]
+      }
+    },
+    {
+      "name": "AscendedSteelArmor",
+      "type": "armor",
+      "sortid": 157,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ascended_steel_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/endgame_reborn/models/item/ascended_steel_armor_leggings.json",
+          "src/main/resources/assets/endgame_reborn/models/item/ascended_steel_armor_chestplate.json",
+          "src/main/java/net/mcreator/endgamereborn/item/AscendedSteelArmorItem.java",
+          "src/main/resources/assets/endgame_reborn/models/item/ascended_steel_armor_boots.json",
+          "src/main/resources/assets/endgame_reborn/models/item/ascended_steel_armor_helmet.json"
+        ]
+      }
+    },
+    {
+      "name": "AscendedSteelIngot",
+      "type": "item",
+      "sortid": 158,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ascended_steel_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/endgamereborn/item/AscendedSteelIngotItem.java",
+          "src/main/resources/assets/endgame_reborn/models/item/ascended_steel_ingot.json"
+        ]
+      }
+    },
+    {
+      "name": "AscendedSteelSword",
+      "type": "tool",
+      "sortid": 159,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ascended_steel_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/endgamereborn/item/AscendedSteelSwordItem.java",
+          "src/main/resources/assets/endgame_reborn/models/item/ascended_steel_sword.json"
+        ]
+      }
+    },
+    {
+      "name": "AscendedSteelPickaxe",
+      "type": "tool",
+      "sortid": 160,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ascended_steel_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/endgamereborn/item/AscendedSteelPickaxeItem.java",
+          "src/main/resources/assets/endgame_reborn/models/item/ascended_steel_pickaxe.json"
+        ]
+      }
+    },
+    {
+      "name": "AscendedSteelAxe",
+      "type": "tool",
+      "sortid": 161,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ascended_steel_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/endgame_reborn/models/item/ascended_steel_axe.json",
+          "src/main/java/net/mcreator/endgamereborn/item/AscendedSteelAxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "AscendedSteelShovel",
+      "type": "tool",
+      "sortid": 162,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ascended_steel_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/endgame_reborn/models/item/ascended_steel_shovel.json",
+          "src/main/java/net/mcreator/endgamereborn/item/AscendedSteelShovelItem.java"
+        ]
+      }
+    },
+    {
+      "name": "AscendedSteelHoe",
+      "type": "tool",
+      "sortid": 163,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ascended_steel_hoe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/endgamereborn/item/AscendedSteelHoeItem.java",
+          "src/main/resources/assets/endgame_reborn/models/item/ascended_steel_hoe.json"
+        ]
+      }
+    },
+    {
+      "name": "LostSteelArmor",
+      "type": "armor",
+      "sortid": 164,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lost_steel_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/endgame_reborn/models/item/lost_steel_armor_chestplate.json",
+          "src/main/resources/assets/endgame_reborn/models/item/lost_steel_armor_helmet.json",
+          "src/main/java/net/mcreator/endgamereborn/item/LostSteelArmorItem.java",
+          "src/main/resources/assets/endgame_reborn/models/item/lost_steel_armor_leggings.json",
+          "src/main/resources/assets/endgame_reborn/models/item/lost_steel_armor_boots.json"
+        ]
+      }
+    },
+    {
+      "name": "LostSteelIngot",
+      "type": "item",
+      "sortid": 165,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lost_steel_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/endgame_reborn/models/item/lost_steel_ingot.json",
+          "src/main/java/net/mcreator/endgamereborn/item/LostSteelIngotItem.java"
+        ]
+      }
+    },
+    {
+      "name": "LostSteelSword",
+      "type": "tool",
+      "sortid": 166,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lost_steel_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/endgame_reborn/models/item/lost_steel_sword.json",
+          "src/main/java/net/mcreator/endgamereborn/item/LostSteelSwordItem.java"
+        ]
+      }
+    },
+    {
+      "name": "LostSteelPickaxe",
+      "type": "tool",
+      "sortid": 167,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lost_steel_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/endgame_reborn/models/item/lost_steel_pickaxe.json",
+          "src/main/java/net/mcreator/endgamereborn/item/LostSteelPickaxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "LostSteelAxe",
+      "type": "tool",
+      "sortid": 168,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lost_steel_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/endgamereborn/item/LostSteelAxeItem.java",
+          "src/main/resources/assets/endgame_reborn/models/item/lost_steel_axe.json"
+        ]
+      }
+    },
+    {
+      "name": "LostSteelShovel",
+      "type": "tool",
+      "sortid": 169,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lost_steel_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/endgame_reborn/models/item/lost_steel_shovel.json",
+          "src/main/java/net/mcreator/endgamereborn/item/LostSteelShovelItem.java"
+        ]
+      }
+    },
+    {
+      "name": "LostSteelHoe",
+      "type": "tool",
+      "sortid": 170,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lost_steel_hoe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/endgamereborn/item/LostSteelHoeItem.java",
+          "src/main/resources/assets/endgame_reborn/models/item/lost_steel_hoe.json"
+        ]
+      }
+    },
+    {
+      "name": "AscendedSteelKnife",
+      "type": "tool",
+      "sortid": 171,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "ascended_steel_knife",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/endgamereborn/item/AscendedSteelKnifeItem.java",
+          "src/main/resources/assets/endgame_reborn/models/item/ascended_steel_knife.json"
+        ]
+      }
+    },
+    {
+      "name": "LostSteelKnife",
+      "type": "tool",
+      "sortid": 172,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "lost_steel_knife",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/endgamereborn/item/LostSteelKnifeItem.java",
+          "src/main/resources/assets/endgame_reborn/models/item/lost_steel_knife.json"
+        ]
+      }
+    },
+    {
+      "name": "AscendedSteel",
+      "type": "achievement",
+      "sortid": 173,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ascended_steel",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/endgame_reborn/advancements/ascended_steel.json"
+        ]
+      }
+    },
+    {
+      "name": "LostSteel",
+      "type": "achievement",
+      "sortid": 174,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lost_steel",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/endgame_reborn/advancements/lost_steel.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -1420,105 +2378,176 @@
     "en_us": {
       "item.endgame_reborn.reinforced_steel_armor_helmet": "Reinforced Steel Helmet",
       "item.endgame_reborn.reinforced_steel_sword": "Reinforced Steel Sword",
+      "item.endgame_reborn.popped_chorus_hoe": "Popped Chorus Hoe",
       "advancements.what_remains.descr": "Acquired remnant steel ore",
+      "advancements.prosperous_steel_template.title": "Emeralds Upon Emeralds",
+      "item.endgame_reborn.ascended_steel_knife": "Ascended Steel Knife",
       "item.endgame_reborn.steel_ingot": "Steel Ingot",
       "item.endgame_reborn.forgotten_steel_armor_chestplate": "Forgotten Steel Chestplate",
       "item.endgame_reborn.sculk_steel_armor_helmet": "Sculk Steel Helmet",
       "item.endgame_reborn.netherite_armor_reborn_helmet": "Netherite Helmet",
       "item.endgame_reborn.prosperous_steel_armor_boots": "Prosperous Steel Boots",
       "advancements.scraps_of_the_past.descr": "Acquired your first remnant scrap",
+      "advancements.lost_steel.descr": "You wandered throughout foreign lands to forge your new alloy.",
       "advancements.prosperous_steel.descr": "Combined your steel with the power of emeralds.",
+      "item.endgame_reborn.flawless_emerald": "Flawless Emerald",
+      "advancements.reinforced_steel_template.title": "Diamond Pinnacle",
       "item.endgame_reborn.sculk_steel_shovel": "Sculk Steel Shovel",
       "item.endgame_reborn.sculk_steel_armor_boots": "Sculk Steel Boots",
       "item.endgame_reborn.netherite_sword_reborn": "Netherite Sword",
       "advancements.sculk_steel.title": "Echoes Within",
+      "item.endgame_reborn.netherite_knife_reborn": "Netherite Knife",
+      "advancements.fractured_steel_template.title": "Fragments of Power",
+      "item.endgame_reborn.fractured_steel_knife": "Fractured Steel Knife",
+      "advancements.sculk_steel_template.descr": "You journeyed to the darkest depths of the overworld and forged your steel with the echoes within,",
+      "item.endgame_reborn.ascended_steel_armor_helmet": "Ascended Steel Helmet",
       "item.endgame_reborn.fractured_steel_shovel": "Fractured Steel Shovel",
+      "item.endgame_reborn.fractured_steel_upgrade_smithing_template": "Smithing Template",
+      "advancements.gilded_steel_template.descr": "You forge your path through the flames of the nether/",
       "item.endgame_reborn.sculk_steel_armor_chestplate": "Sculk Steel Chestplate",
+      "item.endgame_reborn.remnant_steel_upgrade_smithing_template": "Smithing Template",
       "item.endgame_reborn.prosperous_steel_pickaxe": "Prosperous Steel Pickaxe",
+      "advancements.forgotten_steel_template.descr": "You\u0027ve reached your journey\u0027s end.",
       "item.endgame_reborn.forgotten_steel_ingot": "Forgotten Steel Ingot",
+      "item.endgame_reborn.popped_chorus_sword": "Popped Chorus Sword",
+      "item.endgame_reborn.sculk_steel_upgrade_smithing_template": "Smithing Template",
       "item.endgame_reborn.fractured_steel_ingot": "Fractured Steel Ingot",
       "item.endgame_reborn.steel_armor_helmet": "Steel Helmet",
-      "item.endgame_reborn.prosperous_steel_ingot": "Prosperous Steel Ingot",
       "item.endgame_reborn.steel_hoe": "Steel Hoe",
+      "item.endgame_reborn.prosperous_steel_ingot": "Prosperous Steel Ingot",
       "item.endgame_reborn.steel_pickaxe": "Steel Pickaxe",
       "advancements.reinforced_steel.descr": "Reinforced your steel with diamonds.",
-      "item.endgame_reborn.sculk_steel_hoe": "Sculk Steel Hoe",
       "advancements.gilded_steel.descr": "You forge your path through the flames of the nether/",
-      "item.endgame_reborn.diamond_armor_reborn_helmet": "Diamond Helmet",
+      "item.endgame_reborn.sculk_steel_hoe": "Sculk Steel Hoe",
+      "item.endgame_reborn.ascended_steel_axe": "Ascended Steel Axe",
       "item.endgame_reborn.prosperous_steel_sword": "Prosperous Steel Sword",
+      "item.endgame_reborn.diamond_armor_reborn_helmet": "Diamond Helmet",
       "item.endgame_reborn.fractured_steel_armor_boots": "Fractured Steel Boots",
       "item.endgame_reborn.netherite_armor_reborn_leggings": "Netherite Leggings",
       "advancements.forgotten_steel.descr": "You\u0027ve reached your journey\u0027s end.",
       "advancements.forgotten_steel.title": "Long Forgotten",
+      "item.endgame_reborn.end_stone_hoe": "End Stone Hoe",
       "advancements.reinforced_steel.title": "Diamond Pinnacle",
+      "item.endgame_reborn.forgotten_steel_upgrade_smithing_template": "Smithing Template",
       "advancements.sculk_steel.descr": "You journeyed to the darkest depths of the overworld and forged your steel with the echoes within,",
+      "item.endgame_reborn.gilded_steel_upgrade_smithing_template": "Smithing Template",
       "item.endgame_reborn.forgotten_steel_pickaxe": "Forgotten Steel Pickaxe",
       "item.endgame_reborn.prosperous_steel_shovel": "Prosperous Steel Shovel",
       "item.endgame_reborn.steel_armor_chestplate": "Steel Chestplate",
+      "item.endgame_reborn.gilded_steel_knife": "Gilded Steel Knife",
+      "item.endgame_reborn.ascended_steel_sword": "Ascended Steel Sword",
       "advancements.gilded_steel.title": "Gilded Flame",
       "item.endgame_reborn.netherite_pickaxe_reborn": "Netherite Pickaxe",
       "item.endgame_reborn.forgotten_steel_shovel": "Forgotten Steel Shovel",
       "item.endgame_reborn.reinforced_steel_shovel": "Reinforced Steel Shovel",
       "advancements.steel.descr": "This will do just fine. Crafted a Steel Ingot.",
+      "advancements.fractured_steel_template.descr": "Forged the remnants of the past with fragments of the future.",
       "item.endgame_reborn.prosperous_steel_hoe": "Prosperous Steel Hoe",
       "item.endgame_reborn.reinforced_steel_armor_leggings": "Reinforced Steel Leggings",
+      "item.endgame_reborn.lost_steel_hoe": "Lost Steel Hoe",
+      "item.endgame_reborn.end_stone_dust": "Remnant Dust",
+      "item.endgame_reborn.lost_steel_armor_boots": "Lost Steel Boots",
       "item.endgame_reborn.diamond_armor_reborn_chestplate": "Diamond Chestplate",
+      "advancements.ascended_steel.descr": "You ascended beyond the clouds to forge your new alloy.",
       "item.endgame_reborn.fractured_steel_hoe": "Fractured Steel Hoe",
       "item.endgame_reborn.fractured_steel_sword": "Fractured Steel Sword",
       "item.endgame_reborn.fractured_steel_armor_leggings": "Fractured Steel Leggings",
       "item.endgame_reborn.netherite_axe_reborn": "Netherite Axe",
       "item.endgame_reborn.reinforced_steel_ingot": "Reinforced Steel Ingot",
       "item.endgame_reborn.sculk_steel_armor_leggings": "Sculk Steel Leggings",
+      "item.endgame_reborn.end_stone_axe": "End Stone Axe",
+      "item.endgame_reborn.end_stone_sword": "End Stone Sword",
+      "item.endgame_reborn.lost_steel_axe": "Lost Steel Axe",
+      "item.endgame_reborn.lost_steel_sword": "Lost Steel Sword",
+      "advancements.ascended_steel.title": "Ascended Alloy",
       "item.endgame_reborn.reinforced_steel_hoe": "Reinforced Steel Hoe",
+      "advancements.gilded_steel_template.title": "Gilded Flame",
       "item.endgame_reborn.netherite_shovel_reborn": "Netherite Shovel",
       "advancements.what_remains.title": "What Remains",
+      "advancements.reinforced_steel_template.descr": "Reinforced your steel with diamonds.",
+      "advancements.prosperous_steel_template.descr": "Combined your steel with the power of emeralds.",
       "advancements.fractured_steel.title": "Fragments of Power",
+      "item.endgame_reborn.ascended_steel_armor_chestplate": "Ascended Steel Chestplate",
       "item.endgame_reborn.fractured_steel_pickaxe": "Fractured Steel Pickaxe",
+      "advancements.sculk_steel_template.title": "Echoes Within",
       "item.endgame_reborn.fractured_steel_armor_helmet": "Fractured Steel Helmet",
       "advancements.prosperous_steel.title": "Emeralds Upon Emeralds",
       "item.endgame_reborn.sculk_steel_axe": "Sculk Steel Axe",
       "item.endgame_reborn.sculk_steel_sword": "Sculk Steel Sword",
       "advancements.steel.title": "Sturdy and Reliable",
+      "item.endgame_reborn.popped_chorus_shovel": "Popped Chorus Shovel",
       "item.endgame_reborn.forgotten_steel_armor_leggings": "Forgotten Steel Leggings",
+      "item.endgame_reborn.sculk_steel_knife": "Sculk Steel Knife",
+      "advancements.lost_steel.title": "Lost Above The Clouds",
       "advancements.scraps_of_the_past.title": "Scraps of the Past",
       "item.endgame_reborn.gilded_steel_ingot": "Gilded Steel Ingot",
       "item.endgame_reborn.netherite_armor_reborn_boots": "Netherite Boots",
       "item.endgame_reborn.sculk_steel_pickaxe": "Sculk Steel Pickaxe",
       "item.endgame_reborn.prosperous_steel_armor_leggings": "Prosperous Steel Leggings",
       "item.endgame_reborn.gilded_steel_armor_helmet": "Gilded Steel Helmet",
+      "item.endgame_reborn.prosperous_steel_knife": "Prosperous Steel Knife",
+      "item.endgame_reborn.lost_steel_knife": "Lost Steel Knife",
+      "item.endgame_reborn.ascended_steel_armor_boots": "Ascended Steel Boots",
       "item.endgame_reborn.forgotten_steel_axe": "Forgotten Steel Axe",
       "item.endgame_reborn.fractured_steel_axe": "Fractured Steel Axe",
       "item.endgame_reborn.steel_armor_boots": "Steel Boots",
       "item.endgame_reborn.gilded_steel_pickaxe": "Gilded Steel Pickaxe",
+      "item.endgame_reborn.forgotten_steel_knife": "Forgotten Steel Knife",
       "item.endgame_reborn.gilded_steel_hoe": "Gilded Steel Hoe",
+      "item.endgame_reborn.ascended_steel_armor_leggings": "Ascended Steel Leggings",
+      "item.endgame_reborn.end_stone_pickaxe": "End Stone Pickaxe",
       "item.endgame_reborn.forgotten_steel_armor_boots": "Forgotten Steel Boots",
+      "item.endgame_reborn.ascended_steel_hoe": "Ascended Steel Hoe",
       "item.endgame_reborn.reinforced_steel_armor_boots": "Reinforced Steel Boots",
       "item.endgame_reborn.reinforced_steel_pickaxe": "Reinforced Steel Pickaxe",
+      "item.endgame_reborn.lost_steel_shovel": "Lost Steel Shovel",
+      "advancements.steel_template.title": "Remnants Reforged",
       "item.endgame_reborn.prosperous_steel_axe": "Prosperous Steel Axe",
       "item.endgame_reborn.fractured_steel_armor_chestplate": "Fractured Steel Chestplate",
+      "advancements.forgotten_steel_template.title": "Long Forgotten",
+      "item.endgame_reborn.ascended_steel_pickaxe": "Ascended Steel Pickaxe",
       "item.endgame_reborn.steel_armor_leggings": "Steel Leggings",
       "item.endgame_reborn.gilded_steel_armor_chestplate": "Gilded Steel Chestplate",
       "item.endgame_reborn.steel_shovel": "Steel Shovel",
       "item.endgame_reborn.forgotten_steel_armor_helmet": "Forgotten Steel Helmet",
       "item.endgame_reborn.reinforced_steel_armor_chestplate": "Reinforced Steel Chestplate",
+      "item.endgame_reborn.end_stone_shovel": "End Stone Shovel",
+      "item.endgame_reborn.prosperous_steel_upgrade_smithing_template": "Smithing Template",
       "item.endgame_reborn.diamond_armor_reborn_boots": "Diamond Boots",
+      "item.endgame_reborn.chorus_spine": "Chorus Spine",
       "item.endgame_reborn.netherite_hoe_reborn": "Netherite Hoe",
       "item.endgame_reborn.gilded_steel_shovel": "Gilded Steel Shovel",
+      "item.endgame_reborn.ascended_steel_ingot": "Ascended Steel Ingot",
       "item.endgame_reborn.reinforced_steel_axe": "Reinforced Steel Axe",
       "item.endgame_reborn.prosperous_steel_armor_chestplate": "Prosperous Steel Chestplate",
+      "item.endgame_reborn.lost_steel_armor_leggings": "Lost Steel Leggings",
       "item.endgame_reborn.gilded_steel_sword": "Gilded Steel Sword",
       "item.endgame_reborn.steel_sword": "Steel Sword",
+      "block.endgame_reborn.end_soil": "End Soil",
+      "item.endgame_reborn.reinforced_steel_upgrade_smithing_template": "Smithing Template",
+      "item.endgame_reborn.lost_steel_armor_chestplate": "Lost Steel Chestplate",
       "item.endgame_reborn.sculk_steel_ingot": "Sculk Steel Ingot",
+      "item.endgame_reborn.popped_chorus_axe": "Popped Chorus Axe",
       "item.endgame_reborn.gilded_steel_armor_leggings": "Gilded Steel Leggings",
+      "item.endgame_reborn.lost_steel_ingot": "Lost Steel Ingot",
       "item.endgame_reborn.remnant_steel_scrap": "Remnant Steel Scrap",
       "block.endgame_reborn.remnant_steel_ore": "Remnant Steel Ore",
+      "item.endgame_reborn.popped_chorus_pickaxe": "Popped Chorus Pickaxe",
       "item.endgame_reborn.gilded_steel_armor_boots": "Gilded Steel Boots",
+      "block.endgame_reborn.chorus_cluster": "Chorus Cluster",
       "item.endgame_reborn.steel_axe": "Steel Axe",
+      "item.endgame_reborn.steel_knife": "Steel Knife",
+      "item.endgame_reborn.lost_steel_armor_helmet": "Lost Steel Helmet",
       "item.endgame_reborn.diamond_armor_reborn_leggings": "Diamond Leggings",
       "item.endgame_reborn.prosperous_steel_armor_helmet": "Prosperous Steel Helmet",
+      "advancements.steel_template.descr": "Forged a Steel Ingot",
       "advancements.fractured_steel.descr": "Forged the remnants of the past with fragments of the future.",
       "item.endgame_reborn.forgotten_steel_hoe": "Forgotten Steel Hoe",
       "item.endgame_reborn.netherite_armor_reborn_chestplate": "Netherite Chestplate",
+      "item.endgame_reborn.ascended_steel_shovel": "Ascended Steel Shovel",
+      "block.endgame_reborn.end_stone_remnant": "Remnant End Stone",
+      "item.endgame_reborn.reinforced_steel_knife": "Reinforced Steel Knife",
+      "item.endgame_reborn.lost_steel_pickaxe": "Lost Steel Pickaxe",
       "item.endgame_reborn.gilded_steel_axe": "Gilded Steel Axe",
       "item.endgame_reborn.forgotten_steel_sword": "Forgotten Steel Sword"
     }

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "endgame_reborn:chorus_spine"
+    },
+    "1": {
+      "item": "endgame_reborn:chorus_spine"
+    },
+    "2": {
+      "item": "endgame_reborn:chorus_spine"
+    },
+    "3": {
+      "item": "endgame_reborn:chorus_spine"
+    }
+  },
+  "result": {
+    "item": "minecraft:stick",
+    "count": 1
+  }
+}

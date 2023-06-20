@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "endgame_reborn:flawless_emerald"
+    },
+    "1": {
+      "item": "endgame_reborn:flawless_emerald"
+    },
+    "2": {
+      "item": "endgame_reborn:flawless_emerald"
+    },
+    "3": {
+      "item": "endgame_reborn:flawless_emerald"
+    }
+  },
+  "result": {
+    "item": "minecraft:emerald",
+    "count": 4
+  }
+}

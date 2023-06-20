@@ -16,7 +16,7 @@
     "attackSpeed": 4.0,
     "enchantability": 15,
     "damageVsEntity": 2.0,
-    "usageCount": 2736,
+    "usageCount": 2735,
     "blocksAffected": [],
     "hasGlow": false,
     "repairItems": [
@@ -25,6 +25,9 @@
       },
       {
         "value": "Items.NETHERITE_INGOT"
+      },
+      {
+        "value": "Items.NETHERITE_SCRAP"
       }
     ],
     "immuneToFire": true,

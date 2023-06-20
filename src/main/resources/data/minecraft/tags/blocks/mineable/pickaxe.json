@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "endgame_reborn:remnant_steel_ore"
+    "endgame_reborn:remnant_steel_ore",
+    "endgame_reborn:end_stone_remnant"
   ]
 }
